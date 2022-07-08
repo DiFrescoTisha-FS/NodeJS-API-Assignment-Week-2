@@ -7,13 +7,9 @@
     "test": "jest --coverage",
     "start": "nodemon server"
   },
-  "keywords": [
-    "NodedJS",
-    "Restful",
-    "API"
-  ],
+  "keywords": [],
   "author": "Tisha Di Fresco",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
