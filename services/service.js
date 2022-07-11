@@ -6,10 +6,9 @@ const getCharacter = async () => {
     return await axios.get(`${process.env.url}`)
 };
 
-// const getCharacterById = async (id) => {
-//     console.log("REAL Character by id");
-//     return await axios.get(`${process.env.url}${id}`);
-// }
+const getCharacterById = async (id) => {
+    console.log("REAL Character by id");
+    return await axios.get(`${process.env.url}${id}`);
+}
 
-    // module.exports = { getCharacter, getCharacterById };
-    module.exports = { getCharacter };
+module.exports = { getCharacter, getCharacterById };
